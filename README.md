@@ -1,5 +1,37 @@
 # Predictive-Analysis-of-stroke-Occurrence using SAS
-This project utilizes SAS to predict stroke risk based on key demographic and health variables like age, hypertension, heart disease, BMI, and smoking status. Using Chi-square tests and binary logistic regression, it identifies significant predictors and moderation effects. Findings help improve healthcare interventions and insurance risk assessments. The study highlights the role of predictive modeling in stroke prevention and policymaking. 
+This project utilizes SAS to predict stroke risk based on key demographic and health variables like age, hypertension, heart disease, BMI, and smoking status. Using Chi-square tests and binary logistic regression, it identifies significant predictors and moderation effects. Findings help improve healthcare interventions and insurance risk assessments. The study highlights the role of predictive modeling in stroke prevention and policymaking.
+
+The Dataset consists of 10 metrics for a list of Patients. These metrics included Patients health records (hypertension, heart disease, average glucose level, body mass index (BMI), smoking status and history of stroke) as well as their demographic information (gender, age, marital status, kind of employment and residence type).
+![image](https://github.com/user-attachments/assets/0fe39362-3c55-4529-af52-5776111b742a)
+
+This dataset’s Primary goal is to predict stroke for individual patients who are at higher risk based on various variables. It can be accomplished by:
+
+Identifying Risk Factors: By analyzing the relationships between variables like age, hypertension, heart disease, and stroke occurrence. Researchers can identify the key factors that increase stroke risk.
+
+Developing Predictive Models: Using their demographic and health information, we can fit models to this data to estimate a person’s risk of stroke.
+
+The Dataset includes the following variables:
+
+Gender: Categorical (Male, Female) – Indicates the Patient’s gender.
+Age: Numerical – age of patients in years.
+Hypertension: Binary (Yes/No) - Indicates whether the patient has hypertension.
+Heart_disease: Binary(Yes/No) – Indicates whether the patient has a history of heart disease.
+Ever_married: Binary(Yes/No) – Indicates Patient’s Marital status.
+Work_type: Categorical (Children, Govt_job, Never worked, Private, self-employed) – Represents Patients work type.
+
+![image](https://github.com/user-attachments/assets/8e8a82cd-f4ed-4630-972a-e642614685be)
+
+Residence_type:  Categorical (Rural/Urban) – Indicates patient’s place of residence.
+Avg_glucose_level: Numerical – Average Blood Glucose level of Patient.
+BMI: Numerical – Body Mass Index of Patient.
+Smoking_Status: Categorical (Never Smoked, Formerly Smoked, Smokes, Unknown) – Indicates the Patient’s Smoking habits.
+Stroke: Binary (Yes/No) – Indicates whether the Patient has experienced a stroke earlier.  
+![image](https://github.com/user-attachments/assets/b0aad80c-2673-4024-896d-c01860196a5b)
+
+
+
+Monitoring Stroke Risk: Monitoring an individual’s stroke risk can be improved by tracking changes in these variables over time.
+![image](https://github.com/user-attachments/assets/3527c8f1-ef32-480d-a7ac-84eb0f8d355e)
 
 Problem Statements
 
