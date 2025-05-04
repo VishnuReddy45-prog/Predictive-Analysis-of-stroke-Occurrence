@@ -1,4 +1,5 @@
 # Predictive-Analysis-of-stroke-Occurrence using SAS
+
 This project utilizes SAS to predict stroke risk based on key demographic and health variables like age, hypertension, heart disease, BMI, and smoking status. Using Chi-square tests and binary logistic regression, it identifies significant predictors and moderation effects. Findings help improve healthcare interventions and insurance risk assessments. The study highlights the role of predictive modeling in stroke prevention and policymaking.
 
 The Dataset consists of 10 metrics for a list of Patients. These metrics included Patients health records (hypertension, heart disease, average glucose level, body mass index (BMI), smoking status and history of stroke) as well as their demographic information (gender, age, marital status, kind of employment and residence type).
@@ -18,7 +19,7 @@ Heart_disease: Binary(Yes/No) – Indicates whether the patient has a history of
 Ever_married: Binary(Yes/No) – Indicates Patient’s Marital status.
 Work_type: Categorical (Children, Govt_job, Never worked, Private, self-employed) – Represents Patients work type.
 
-![image](https://github.com/user-attachments/assets/8e8a82cd-f4ed-4630-972a-e642614685be)
+
 
 Residence_type:  Categorical (Rural/Urban) – Indicates patient’s place of residence.
 Avg_glucose_level: Numerical – Average Blood Glucose level of Patient.
