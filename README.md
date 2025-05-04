@@ -30,6 +30,9 @@ Moderation Effect: A moderation effect, also known as an interaction effect, oc
 
 ![image](https://github.com/user-attachments/assets/44159028-bbaf-47e0-a637-5a2f35099d2d)
 
+![image](https://github.com/user-attachments/assets/c31e4e44-622a-4883-a71c-ad7a3b43d779)
+
+
 
 
 
