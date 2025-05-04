@@ -2,7 +2,6 @@
 This project utilizes SAS to predict stroke risk based on key demographic and health variables like age, hypertension, heart disease, BMI, and smoking status. Using Chi-square tests and binary logistic regression, it identifies significant predictors and moderation effects. Findings help improve healthcare interventions and insurance risk assessments. The study highlights the role of predictive modeling in stroke prevention and policymaking.
 
 The Dataset consists of 10 metrics for a list of Patients. These metrics included Patients health records (hypertension, heart disease, average glucose level, body mass index (BMI), smoking status and history of stroke) as well as their demographic information (gender, age, marital status, kind of employment and residence type).
-![image](https://github.com/user-attachments/assets/0fe39362-3c55-4529-af52-5776111b742a)
 
 This dataset’s Primary goal is to predict stroke for individual patients who are at higher risk based on various variables. It can be accomplished by:
 
