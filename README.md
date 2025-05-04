@@ -11,24 +11,8 @@ Identifying Risk Factors: By analyzing the relationships between variables like 
 Developing Predictive Models: Using their demographic and health information, we can fit models to this data to estimate a person’s risk of stroke.
 
 The Dataset includes the following variables:
-
-Gender: Categorical (Male, Female) – Indicates the Patient’s gender.
-Age: Numerical – age of patients in years.
-Hypertension: Binary (Yes/No) - Indicates whether the patient has hypertension.
-Heart_disease: Binary(Yes/No) – Indicates whether the patient has a history of heart disease.
-Ever_married: Binary(Yes/No) – Indicates Patient’s Marital status.
-Work_type: Categorical (Children, Govt_job, Never worked, Private, self-employed) – Represents Patients work type.
-
-
-
-Residence_type:  Categorical (Rural/Urban) – Indicates patient’s place of residence.
-Avg_glucose_level: Numerical – Average Blood Glucose level of Patient.
-BMI: Numerical – Body Mass Index of Patient.
-Smoking_Status: Categorical (Never Smoked, Formerly Smoked, Smokes, Unknown) – Indicates the Patient’s Smoking habits.
-Stroke: Binary (Yes/No) – Indicates whether the Patient has experienced a stroke earlier.  
+![image](https://github.com/user-attachments/assets/613fe371-223f-461a-b80b-0f86cf03c1a1)  
 ![image](https://github.com/user-attachments/assets/b0aad80c-2673-4024-896d-c01860196a5b)
-
-
 
 Monitoring Stroke Risk: Monitoring an individual’s stroke risk can be improved by tracking changes in these variables over time.
 ![image](https://github.com/user-attachments/assets/3527c8f1-ef32-480d-a7ac-84eb0f8d355e)
