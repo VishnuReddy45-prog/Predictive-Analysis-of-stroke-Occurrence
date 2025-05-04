@@ -123,6 +123,70 @@ Model Used: Binary logistic regression with Backward elimination of predictor va
 Variables: hypertension, heart_disease, avg_glucose_level, bmi, age, gender, ever_married, work_type, Residence_type, smoking_status
 ![image](https://github.com/user-attachments/assets/1cddf05e-f300-4685-b050-964e47c02c0d)
 
+Low p-value, therefore, reject the null hypothesis on the model level 
+
+![image](https://github.com/user-attachments/assets/af120d14-0f81-4566-ac33-e94345af9bec)
+
+For the R-squared value of 0.1723, it signifies that about 17.23% of the variance in stroke occurrence can be elucidated by the predictor variables included in the model, such as age, hypertension, heart disease, average glucose level, and smoking status. However, a substantial portion of the variability remains unaccounted for, implying the potential presence of additional factors beyond those considered in this analysis that contribute to the likelihood of experiencing a stroke.
+
+![image](https://github.com/user-attachments/assets/d721cad8-6146-47a2-9ddf-019c692c32a1)
+
+The fitted model is:
+
+![image](https://github.com/user-attachments/assets/9c3987ab-ad5e-4e98-8cca-3e91a66fecd5)
+
+Estimated probability of experiencing a stroke 
+
+Odds Ratios:
+Hypertension:
+Odds Ratio: 2.030
+Interpretation: Individuals with hypertension have approximately 2.030 times higher odds of experiencing a stroke compared to those without hypertension, holding other variables constant.
+Heart Disease:
+Odds Ratio: 2.143
+Interpretation: Individuals with heart disease have approximately 2.143 times higher odds of experiencing a stroke compared to those without heart disease, holding other variables constant.
+Average Glucose Level:
+Odds Ratio: 1.003
+Interpretation: For each one-unit increase in average glucose level, the odds of experiencing a stroke increase by approximately 1.003 times, holding other variables constant.
+Age:
+Odds Ratio: 1.073
+Interpretation: For each one-year increase in age, the odds of experiencing a stroke increase by approximately 1.073 times, holding other variables constant.
+Smoking Status (Formerly Smoked vs. Smokes):
+Odds Ratio: 0.747
+Interpretation: Individuals who formerly smoked have approximately 0.747 times the odds of experiencing a stroke compared to those who currently smoke, holding other variables constant.
+Smoking Status (Never Smoked vs. Smokes):
+Odds Ratio: 0.774
+Interpretation: Individuals who never smoked have approximately 0.774 times the odds of experiencing a stroke compared to those who currently smoke, holding other variables constant.
+These interpretations provide insights into how each predictor variable affects the odds of experiencing a stroke, holding other variables constant.
+
+Summary of Interpretation:
+
+The logistic regression model estimates the log odds of experiencing a stroke based on various predictor variables such as age, hypertension, heart disease, average glucose level, and smoking status.
+Age, hypertension, heart disease, and average glucose level are positively associated with increased odds of experiencing a stroke, meaning individuals with higher values for these variables are at higher risk.
+Formerly smoked and never-smoked categories of smoking status are negatively associated with the odds of experiencing a stroke, indicating that individuals who formerly smoked or never smoked have lower odds compared to current smokers.
+
+Insights and Recommendations for Health Insurance Providers:
+
+1. Risk Assessment: Age, hypertension, heart disease, and average glucose level are significant predictors of stroke risk. Health insurance providers can use this information to assess the risk profile of individuals applying for health plans. Those with higher risk factors may require more comprehensive coverage or additional health management programs.
+2. Premium Calculation: Individuals with higher risk factors, such as older age, hypertension, heart disease, and elevated glucose levels, may be charged higher premiums to reflect their increased likelihood of experiencing a stroke. Conversely, individuals who formerly smoked or never smoked may be eligible for lower premiums due to their lower risk profile.
+3. Personalized Healthcare Interventions: Health insurance providers can use this model to identify high-risk individuals and offer personalized healthcare interventions aimed at stroke prevention. This may include targeted wellness programs, lifestyle modifications, and regular health screenings to mitigate stroke risk factors.
+4. Data Integration: Continuously updating the model with additional data sources, such as electronic health records and lifestyle data, can improve its predictive accuracy. Health insurance providers can collaborate with healthcare providers to integrate these data sources and enhance risk assessment capabilities.
+5. Promoting Healthy Behaviours: By highlighting the impact of lifestyle factors such as smoking status on stroke risk, health insurance providers can incentivize healthy behaviours through wellness initiatives and rewards programs. Encouraging smoking cessation and promoting healthy lifestyle choices can contribute to overall risk reduction and improved health outcomes.
+Incorporating these insights into risk assessment, premium calculation, and personalized healthcare interventions can help health insurance providers better manage stroke risk among insured individuals and ultimately improve health outcomes while optimizing cost-effectiveness.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
