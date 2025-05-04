@@ -30,7 +30,59 @@ Moderation Effect: A moderation effect, also known as an interaction effect, oc
 
 ![image](https://github.com/user-attachments/assets/44159028-bbaf-47e0-a637-5a2f35099d2d)
 
-![image](https://github.com/user-attachments/assets/c31e4e44-622a-4883-a71c-ad7a3b43d779)
+Initial Assumptions:
+
+    Null Hypothesis(H0): No moderation effect?   
+    Alternate Hypothesis(H1): There is a moderation effect?
+    
+![image](https://github.com/user-attachments/assets/9fba4027-6e83-4c9f-8078-ca8dd0edc34c)
+
+Conclusion on the moderation effect:
+
+As we can see, the p-value for heart_disease is less than 0.005, so we can reject the null hypothesis. Indicating they are significant predictors of brain stroke, and that there is a moderation effect of heart disease on the relationship between age and brain stroke risk. 
+
+We checked if there is a moderation effect between age and metabolic health indicators (such as heart_disease, BMI, and average glucose level) that influence stroke risk across the different populations? 
+
+Method Used: Binary logistic Regression with moderation effect
+Predictor Variables: BMI, age
+Outcome Variable: Stroke
+
+![image](https://github.com/user-attachments/assets/693d89c5-e5dc-4ea6-971d-a5a9b5c5dfc7)
+
+Initial Assumptions:
+ Null Hypothesis(H0): No moderation effect?
+ Alternate Hypothesis(H1): There is a moderation effect?
+
+![image](https://github.com/user-attachments/assets/26d97d34-f5cc-4ed4-9933-bd2ea7f9a6dc)
+
+
+ Conclusion on the moderation effect: 
+
+As we can see, the p-value for avg_glucose_level is less than 0.005, so we can reject the null hypothesis. Indicating they are significant predictors of brain stroke, and that there is a moderation effect of  avg_glucose_level on the relationship between age and brain stroke risk. 
+
+Summary of Interpretation:
+
+In summary, the logistic regression model with the interaction term provides insights into how age, avg_glucose_level, and their interaction influence the likelihood of the event occurring. It highlights the importance of considering the interaction effect when examining the relationship between predictor variables and the outcome variable, leading to a better understanding of the factors contributing to the event of interest.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
