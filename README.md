@@ -25,7 +25,9 @@ Predictor Variables: heart_disease, age
 Outcome Variable: Stroke
 
 Conceptual Diagram of the moderation effect:
+
 Moderation Effect: A moderation effect, also known as an interaction effect, occurs when the relationship between two variables changes depending on the level or presence of a third variable. The effect of one variable on an outcome is influenced by the presence or level of another variable.
+
 ![image](https://github.com/user-attachments/assets/44159028-bbaf-47e0-a637-5a2f35099d2d)
 
 
