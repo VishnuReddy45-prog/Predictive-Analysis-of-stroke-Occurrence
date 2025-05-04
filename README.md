@@ -18,8 +18,14 @@ Monitoring Stroke Risk: Monitoring an individual’s stroke risk can be improved
 ![image](https://github.com/user-attachments/assets/3527c8f1-ef32-480d-a7ac-84eb0f8d355e)
 
 Problem Statements
-
 We checked if there is a moderation effect between age and metabolic health indicators (such as heart_disease, BMI, and average glucose level) that influence stroke risk across the different populations ? 
-
 Method Used: Binary logistic Regression with moderation effect
-![image](https://github.com/user-attachments/assets/4723bea3-da92-4dc0-b1b0-11e4f161d255)
+Predictor Variables: heart_disease, age
+Outcome Variable: Stroke
+
+Conceptual Diagram of moderation effect:
+![image](https://github.com/user-attachments/assets/e64a4ca8-402f-47ec-b1e9-43cb7dab7a64)
+
+
+
+
